@@ -26,6 +26,8 @@ Params:
 Returns:
     数据集，标签集
 """
+
+
 def createDataSet():
     dataSet = [[1, 0, 1, 2, 0, 0, 1],
                [2, 0, 0, 2, 0, 0, 1],
@@ -56,6 +58,8 @@ Params:
 Returns:
     shannonEnt - 经验熵(香农熵)
 """
+
+
 def calcShannonEnt(dataSet):
     numEntiries = len(dataSet)
 

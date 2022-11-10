@@ -53,7 +53,7 @@ def chooseBestFeature(dataSet):
 
         curInfoGain = baseEnt - curConEnt  # 计算出当前特征项的信息增益
 
-        print("特征 %s 的增益为%.3f" % (labels[i], curInfoGain))
+        # print("特征 %s 的增益为%.3f" % (labels[i], curInfoGain))
 
         # 有更大值时更新 best 变量
         if curInfoGain > bestInfoGain:
