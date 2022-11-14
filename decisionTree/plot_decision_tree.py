@@ -29,7 +29,7 @@ def getNumLeafs(myTree):  # 运行1000次的时间为：0.037899017333984375 s
     return numLeafs
 
 
-# 函数说明:获取决策树的层数,才能确定 figure 的 Y 轴长度。寻找'{'所及的最大深度，即为树层数
+# 函数说明:获取决策树的层数,才能确定 figure 的 Y 轴长度。
 #
 # Parameters:
 #     myTree - 决策树
